@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MoveryyPilot" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Moveryy Brand Colors -->
+        <item name="colorPrimary">@color/moveryy_primary</item>
+        <item name="colorPrimaryDark">@color/moveryy_primary_dark</item>
+        <item name="colorAccent">@color/moveryy_accent</item>
+        <item name="android:colorBackground">@color/moveryy_background</item>
+        <item name="colorSurface">@color/moveryy_surface</item>
+    </style>
+
+    <style name="Theme.MoveryyPilot" parent="Base.Theme.MoveryyPilot" />
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.MoveryyPilot.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/moveryypilot</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.MoveryyPilot</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+    </style>
+    
+    <!-- Alternative Splash Theme for older Android versions -->
+    <style name="Theme.MoveryyPilot.SplashCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+    </style>
+</resources>

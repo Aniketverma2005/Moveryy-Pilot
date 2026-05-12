@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="20dp"
+    android:viewportWidth="60"
+    android:viewportHeight="20">
+    
+    <!-- Audio wave bars -->
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M2,8 L6,8 L6,12 L2,12 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M8,5 L12,5 L12,15 L8,15 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M14,3 L18,3 L18,17 L14,17 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M20,6 L24,6 L24,14 L20,14 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M26,4 L30,4 L30,16 L26,16 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M32,7 L36,7 L36,13 L32,13 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M38,5 L42,5 L42,15 L38,15 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M44,8 L48,8 L48,12 L44,12 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M50,6 L54,6 L54,14 L50,14 Z"/>
+    
+    <path
+        android:fillColor="#1E5BA8"
+        android:pathData="M56,9 L60,9 L60,11 L56,11 Z"/>
+</vector>

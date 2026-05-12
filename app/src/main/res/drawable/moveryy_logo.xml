@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="180dp"
+    android:viewportWidth="180"
+    android:viewportHeight="180">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,90m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+    
+    <!-- Letter M - stylized as moving arrows -->
+    <path
+        android:fillColor="@color/moveryy_primary"
+        android:pathData="M50,110 L50,70 L65,85 L80,70 L80,110 L70,110 L70,90 L65,95 L60,90 L60,110 Z" />
+    
+    <!-- Arrow symbol representing movement -->
+    <path
+        android:fillColor="@color/moveryy_accent"
+        android:pathData="M95,90 L115,70 L115,80 L130,80 L130,100 L115,100 L115,110 Z" />
+    
+    <!-- Accent dot -->
+    <path
+        android:fillColor="@color/moveryy_accent"
+        android:pathData="M90,55m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

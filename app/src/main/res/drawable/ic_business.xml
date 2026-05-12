@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Growth Arrow -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4,18 L8,14 L12,16 L20,8" />
+    
+    <!-- Arrow Head -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M20,8 L16,8 L20,4 Z" />
+    
+    <!-- Base Line -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M3,20 L21,20" />
+</vector>

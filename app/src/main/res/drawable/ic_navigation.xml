@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Navigation Arrow -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M12,2 L4,20 L12,17 L20,20 Z" />
+    
+    <!-- Inner Detail -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M12,6 L7,17 L12,15 L17,17 Z" />
+    
+    <!-- Direction Indicator -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M12,2 L12,10" />
+</vector>

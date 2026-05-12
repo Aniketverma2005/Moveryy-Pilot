@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Moveryy Brand Colors - Official Theme -->
+    <color name="moveryy_primary">#1E5BA8</color>
+    <color name="moveryy_primary_dark">#164A8C</color>
+    <color name="moveryy_primary_light">#2B6BC0</color>
+    <color name="moveryy_accent">#00BCD4</color>
+    <color name="moveryy_background">#F5F5F5</color>
+    <color name="moveryy_surface">#FFFFFF</color>
+    <color name="moveryy_text_primary">#212121</color>
+    <color name="moveryy_text_secondary">#757575</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Splash Screen Colors - Moveryy Blue -->
+    <color name="splash_background">#1E5BA8</color>
+    <color name="splash_gradient_start">#1E5BA8</color>
+    <color name="splash_gradient_end">#164A8C</color>
+    
+    <!-- Additional UI Colors -->
+    <color name="moveryy_card_background">#FFFFFF</color>
+    <color name="moveryy_text_white">#FFFFFF</color>
+    <color name="moveryy_text_light">#E3F2FD</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Route Path -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M6,6 Q10,10 12,8 T18,18" />
+    
+    <!-- Start Point -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M6,6m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    
+    <!-- End Point -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M18,18m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    
+    <!-- Arrow -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M16,16 L18,18 L16,20 Z" />
+</vector>
